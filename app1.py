@@ -28,5 +28,5 @@ def update_graph(x_axis):
         fig=px.box(df,x='time',y='total_bill')
     else:
         return fig
-app.run(debug = True, port = 8050,host='0.0.0.0')
+app.run(debug = True, port = 8070,host='0.0.0.0')
 
