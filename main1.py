@@ -46,5 +46,5 @@ def update_graph(x_axis):
 
 
 
-if __name__ == '__main__':
+if __name__ == '__main1__':
     app.run(debug=True, port = 8050)
